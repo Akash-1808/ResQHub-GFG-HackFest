@@ -25,7 +25,7 @@ function error() {
 
 // Fetch weather data from OpenWeatherMap API
 function fetchWeatherData(lat, lon) {
-    const apiKey = '4526a80a5d5bdacefda7579162a723a8';
+    const apiKey = 'your_api_key';
     const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${apiKey}&units=metric`;
 
     fetch(url)
